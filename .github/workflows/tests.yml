@@ -1,0 +1,23 @@
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - name: Unit tests (offline, no network)
+        run: python -m pytest -q
+      - name: End-to-end offline run
+        run: |
+          python -m fdrates run --offline-dir tests/fixtures --out /tmp/fdout
+          python -m fdrates validate /tmp/fdout/latest/fd_rates.csv

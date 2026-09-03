@@ -1,0 +1,59 @@
+Sr No,Category,Bank Name,Website (current),FD Interest Rate Page,Page Format,Verification Status,Notes
+1,Public Sector Bank,Bank of Baroda,https://bankofbaroda.bank.in,https://bankofbaroda.bank.in/interest-rate-and-service-charges/deposits-interest-rates,HTML,Verified live,Migrated from bankofbaroda.in
+2,Public Sector Bank,Bank of India,https://bankofindia.bank.in,https://bankofindia.bank.in/interest-rate-on-deposit,HTML,To confirm manually,Cloudflare blocks automated access; path carried over from bankofindia.co.in. Verify in a browser
+3,Public Sector Bank,Bank of Maharashtra,https://bankofmaharashtra.bank.in,https://bankofmaharashtra.bank.in/domestic-term-deposits,HTML,Verified live,Alt hub: /retail-interest-rates. Migrated from bankofmaharashtra.in
+4,Public Sector Bank,Canara Bank,https://www.canarabank.bank.in,https://www.canarabank.bank.in/pages/deposit-interest-rates,HTML,Verified live,Migrated from canarabank.com
+5,Public Sector Bank,Central Bank of India,https://centralbank.bank.in,https://centralbank.bank.in/en/interest-rates-on-deposit,HTML,Verified live,Migrated from centralbankofindia.co.in
+6,Public Sector Bank,Indian Bank,https://indianbank.bank.in,https://indianbank.bank.in/en/interest-rates-for-domestic-term-deposits,HTML,To confirm manually,WAF blocks automated access. Legacy fallback: indianbank.in/departments/interest-rates/
+7,Public Sector Bank,Indian Overseas Bank,https://www.iob.bank.in,https://www.iob.bank.in/en/retail-deposit-interest-rates-domestic-nro-and-nre,HTML,Verified live,Migrated from iob.in
+8,Public Sector Bank,Punjab and Sind Bank,https://www.punjabandsind.bank.in,https://www.punjabandsind.bank.in/content/interestdom,HTML,Verified live,"Note domain is punjabandsind.bank.in, not punjabandsindbank"
+9,Public Sector Bank,Punjab National Bank,https://pnb.bank.in,https://pnb.bank.in/Interest-Rates-Deposit.html,HTML,Verified live,Migrated from pnbindia.in. URL is case sensitive
+10,Public Sector Bank,State Bank of India,https://sbi.bank.in,https://sbi.bank.in/web/interest-rates/deposit-rates/retail-domestic-term-deposits,HTML,Verified live,sbi.co.in now redirects to sbi.bank.in
+11,Public Sector Bank,UCO Bank,https://www.uco.bank.in,https://www.uco.bank.in/en/web/guest/interest-rates-on-deposit-schemes,HTML,Verified live,"Domain is uco.bank.in, not ucobank.bank.in"
+12,Public Sector Bank,Union Bank of India,https://www.unionbankofindia.bank.in,https://www.unionbankofindia.bank.in/en/details/rate-of-interest,HTML,Verified live,Alt hub: /en/interestrates
+13,Private Sector Bank,Axis Bank Ltd,https://www.axis.bank.in,https://www.axis.bank.in/deposits/fixed-deposits/fd-interest-rates,HTML,Verified live,Migrated from axisbank.com
+14,Private Sector Bank,Bandhan Bank Ltd,https://www.bandhan.bank.in,https://www.bandhan.bank.in/rates-charges,HTML,Verified live,"Single rates hub covers FD, SA and RD"
+15,Private Sector Bank,City Union Bank Ltd,https://www.cityunionbank.com,https://www.cityunionbank.com/deposit-interest-rate,HTML,Verified live,No .bank.in redirect observed as of this check
+16,Private Sector Bank,CSB Bank Ltd,https://www.csb.bank.in,https://www.csb.bank.in/interest-rates,HTML,Verified live,Radware bot wall on the front end; URL confirmed via sitemap.xml
+17,Private Sector Bank,DCB Bank Ltd,https://www.dcb.bank.in,https://www.dcb.bank.in/rates/fixed-deposit-interest-rate,HTML (JS),Verified live,"Rate table renders client side, needs a headless browser to scrape"
+18,Private Sector Bank,Dhanlaxmi Bank Ltd,https://www.dhan.bank.in,https://www.dhan.bank.in/interest-rates/,HTML,Verified live,Migrated from dhanbank.com
+19,Private Sector Bank,Federal Bank Ltd,https://www.federal.bank.in,https://www.federal.bank.in/deposit-rate,HTML,Verified live,Radware bot wall on the front end; URL confirmed via sitemap.xml
+20,Private Sector Bank,HDFC Bank Ltd,https://www.hdfc.bank.in,https://www.hdfc.bank.in/interest-rates,HTML,Verified live,Alt: /fixed-deposit/fd-interest-rate. hdfcbank.com 403s to bots
+21,Private Sector Bank,ICICI Bank Ltd,https://www.icici.bank.in,https://www.icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates,HTML,Verified live,Migrated from icicibank.com
+22,Private Sector Bank,IDBI Bank Ltd,https://www.idbi.bank.in,https://www.idbi.bank.in/interest-rates.aspx,HTML,Verified live,Migrated from idbibank.in
+23,Private Sector Bank,IDFC FIRST Bank Ltd,https://www.idfcfirst.bank.in,https://www.idfcfirst.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates,HTML,Verified live,Note plural fd-interest-rates
+24,Private Sector Bank,IndusInd Bank Ltd,https://www.indusind.bank.in,https://www.indusind.bank.in/in/en/personal/fixed-deposit-interest-rate.html,HTML,Verified live,Strip utm parameters when scraping
+25,Private Sector Bank,Jammu and Kashmir Bank Ltd,https://jkb.bank.in,https://jkb.bank.in/interest-rates,HTML,Verified live,Domain is jkb.bank.in. Old jkbank.com no longer serves this path
+26,Private Sector Bank,Karnataka Bank Ltd,https://www.karnatakabank.bank.in,https://www.karnatakabank.bank.in/deposit-interest-rates,HTML,Verified live,/interest-rates on this domain returns 403
+27,Private Sector Bank,Karur Vysya Bank Ltd,https://www.kvb.bank.in,https://www.kvb.bank.in/interest-rates-charges-quick-glance/,HTML,Verified live,Alt: /personal/deposits/deposit-interest-rates-glance/
+28,Private Sector Bank,Kotak Mahindra Bank Ltd,https://www.kotak.bank.in,https://www.kotak.bank.in/en/rates/interest-rates.html,HTML,Verified live,Migrated from kotak.com
+29,Private Sector Bank,Nainital Bank Ltd,https://www.nainitalbank.bank.in,https://www.nainitalbank.bank.in/english/interest_rate.aspx,HTML,Verified live,"Underscore in filename, singular interest_rate"
+30,Private Sector Bank,RBL Bank Ltd,https://www.rbl.bank.in,https://www.rbl.bank.in/interest-rates?tab=fixed-deposit,HTML,Verified live,"Tabbed page, FD is a query parameter"
+31,Private Sector Bank,South Indian Bank Ltd,https://www.southindianbank.bank.in,https://www.southindianbank.bank.in/quick-links/interest-rates,HTML,Verified live,Cloudflare blocks automated access; URL confirmed from the live indexed page
+32,Private Sector Bank,Tamilnad Mercantile Bank Ltd,https://www.tmb.bank.in,https://www.tmb.bank.in/deposit-interest-rates,HTML,Verified live,Migrated from tmb.in
+33,Private Sector Bank,YES Bank Ltd,https://www.yes.bank.in,https://www.yes.bank.in/rates-and-charges,HTML (JS),To confirm manually,Page loads but rates render client side. Confirm the exact FD sub-tab in a browser
+34,Foreign Bank,American Express Banking Corporation,https://americanexpress.bank.in,,n/a,No retail FD,India licence covers cards and payments. No retail term deposit product
+35,Foreign Bank,Bank of America,https://business.bofa.com,,n/a,No retail FD,India operations are corporate and institutional only. No .bank.in domain registered
+36,Foreign Bank,Bank of Bahrain & Kuwait B.S.C.,https://bbkindia.bank.in,https://bbkindia.bank.in/wp-content/uploads/2024/11/interest-rate.pdf,PDF,To confirm manually,"Rates published as a PDF that is re-uploaded on each revision. Scrape the link from the site, not the fixed path"
+37,Foreign Bank,Barclays Bank PLC,https://www.barclays.bank.in,,n/a,No retail FD,India presence is corporate and investment banking. No retail FD page found
+38,Foreign Bank,Citi Bank,,,n/a,No retail FD,India consumer business including deposits transferred to Axis Bank in 2023. No India retail domain resolving
+39,Foreign Bank,DBS India Bank Ltd,https://www.dbs.bank.in,https://www.dbs.bank.in/in/treasures/deposits/fixed-deposit-interest-rate.page,HTML,To confirm manually,Cloudflare blocks automated access. Path carried over from dbs.com/in. Verify in a browser
+40,Foreign Bank,Deutsche Bank Ltd,https://www.deutsche.bank.in,https://www.deutsche.bank.in/en/advantage-banking/interest-rates.html,HTML,Verified live,Migrated from deutschebank.co.in
+41,Foreign Bank,Doha Bank Q.P.S.C.,,,n/a,To confirm manually,No .bank.in domain registered and dohabank.co.in did not resolve during this check. Confirm current India site
+42,Foreign Bank,HSBC Ltd,https://www.hsbc.bank.in,https://www.hsbc.bank.in/accounts/products/fixed-deposits/,HTML,Verified live,Alt: /help/rates-and-fees/
+43,Foreign Bank,KEB Hana Bank,,,n/a,To confirm manually,Single branch India operation. No .bank.in domain and no India retail site resolving
+44,Foreign Bank,Kookmin Bank,https://www.kbfg.com,,n/a,To confirm manually,"Single branch India operation, corporate focused. No India retail rate page found"
+45,Foreign Bank,SBM Bank India Ltd,https://www.sbm.bank.in,https://www.sbm.bank.in/personal-banking/deposits/fixed-deposit/fixed-deposit-interest-rates,HTML,Verified live,Migrated from sbmbank.co.in
+46,Foreign Bank,Standard Chartered Bank Ltd,https://www.sc.bank.in,https://www.sc.bank.in/deposits/interest-rates/,HTML,Verified live,Migrated from sc.com/in
+47,Foreign Bank,Woori Bank,https://wooribank.bank.in,,n/a,To confirm manually,Domain live but no public FD rate page located. Likely corporate focused India branches
+53,Small Finance Bank,AU Small Finance Bank Ltd,https://www.au.bank.in,https://www.au.bank.in/notice-board/notice-board-folder-4/Interest-Rate-for-Domestic-NRE-NRO-Retail-FD-Rates.pdf,PDF,Verified live,PDF rate card verified live. HTML equivalent au.bank.in/interest-rates is Cloudflare protected
+54,Small Finance Bank,Capital Small Finance Bank Ltd,https://www.capital.bank.in,https://www.capital.bank.in/interest-rates/callable-domestic-term-deposit,HTML,Verified live,"Separate pages for callable, non-callable and bulk deposits"
+55,Small Finance Bank,Equitas Small Finance Bank Ltd,https://equitas.bank.in,https://equitas.bank.in/personal-banking/save/fixed-deposits/,HTML,Verified live,Also publishes a consolidated Overall Interest Rates PDF
+56,Small Finance Bank,ESAF Small Finance Bank Ltd,https://www.esaf.bank.in,https://www.esaf.bank.in/interest-rate/,HTML,To confirm manually,Site returns 403 to automated access. Path carried over from esafbank.com. Verify in a browser
+57,Small Finance Bank,Jana Small Finance Bank Ltd,https://www.jana.bank.in,https://www.jana.bank.in/interest-rates/,HTML,Verified live,Migrated from janabank.com
+58,Small Finance Bank,Slice Small Finance Bank Ltd,https://slice.bank.in,https://slice.bank.in/rates-and-pricing,HTML,Verified live,Formerly North East Small Finance Bank
+59,Small Finance Bank,Shivalik Small Finance Bank Ltd,https://www.shivalik.bank.in,,HTML,To confirm manually,Domain resolves but returned 503 throughout this check. Confirm the rate page path when the site is up
+60,Small Finance Bank,Suryoday Small Finance Bank Ltd,https://suryoday.bank.in,https://suryoday.bank.in/rate-of-interest/,HTML,Verified live,Migrated from suryodaybank.com
+61,Small Finance Bank,Ujjivan Small Finance Bank Ltd,https://www.ujjivansfb.bank.in,https://www.ujjivansfb.bank.in/interest-rates,HTML,Verified live,Migrated from ujjivansfb.in
+62,Small Finance Bank,Unity Small Finance Bank Ltd,https://unity.bank.in,https://unity.bank.in/personal-banking/deposits/fixed-deposit,HTML,Verified live,Migrated from theunitybank.com
+63,Small Finance Bank,Utkarsh Small Finance Bank Ltd,https://www.utkarsh.bank.in,https://www.utkarsh.bank.in/personal/term-deposits/fixed-deposits,HTML,Verified live,Migrated from utkarsh.bank
