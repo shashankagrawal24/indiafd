@@ -1,16 +1,16 @@
-# FD rates run - 2026-09-07
+# FD rates run - 2026-09-14
 
 - Banks in seed list: **58**
 - Banks with a retail FD page to try: **49**
-- Banks with rates collected: **24** (49.0% of eligible)
-- Rate rows published: **2195**
+- Banks with rates collected: **23** (46.9% of eligible)
+- Rate rows published: **2142**
 
 ## Coverage by category
 
 | Category | Collected | Eligible |
 | --- | ---: | ---: |
 | Foreign Bank | 3 | 6 |
-| Private Sector Bank | 13 | 21 |
+| Private Sector Bank | 12 | 21 |
 | Public Sector Bank | 5 | 12 |
 | Small Finance Bank | 3 | 10 |
 
@@ -29,6 +29,7 @@ Open each link in a normal browser and read the rate off the page. These are not
 | UCO Bank | `blocked` | challenge page detected (cloudflare) | [open](https://www.uco.bank.in/en/web/guest/interest-rates-on-deposit-schemes) |
 | CSB Bank Ltd | `blocked` | challenge page detected (captcha) | [open](https://www.csb.bank.in/interest-rates) |
 | ICICI Bank Ltd | `blocked` | robots.txt disallows this path | [open](https://www.icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates) |
+| IDBI Bank Ltd | `parse_failed` | ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certifica | [open](https://www.idbi.bank.in/interest-rates.aspx) |
 | Jammu and Kashmir Bank Ltd | `parse_failed` | ConnectTimeout: timed out | [open](https://jkb.bank.in/interest-rates) |
 | Karur Vysya Bank Ltd | `parse_failed` | page fetched but no rate table recognised - check the snapshot and add a per-bank parser | [open](https://www.kvb.bank.in/interest-rates-charges-quick-glance/) |
 | Kotak Mahindra Bank Ltd | `blocked` | challenge page detected (cloudflare) | [open](https://www.kotak.bank.in/en/rates/interest-rates.html) |
