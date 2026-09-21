@@ -1,16 +1,16 @@
-# FD rates run - 2026-09-14
+# FD rates run - 2026-09-21
 
 - Banks in seed list: **58**
 - Banks with a retail FD page to try: **49**
-- Banks with rates collected: **23** (46.9% of eligible)
-- Rate rows published: **2142**
+- Banks with rates collected: **22** (44.9% of eligible)
+- Rate rows published: **2044**
 
 ## Coverage by category
 
 | Category | Collected | Eligible |
 | --- | ---: | ---: |
 | Foreign Bank | 3 | 6 |
-| Private Sector Bank | 12 | 21 |
+| Private Sector Bank | 11 | 21 |
 | Public Sector Bank | 5 | 12 |
 | Small Finance Bank | 3 | 10 |
 
@@ -33,6 +33,7 @@ Open each link in a normal browser and read the rate off the page. These are not
 | Jammu and Kashmir Bank Ltd | `parse_failed` | ConnectTimeout: timed out | [open](https://jkb.bank.in/interest-rates) |
 | Karur Vysya Bank Ltd | `parse_failed` | page fetched but no rate table recognised - check the snapshot and add a per-bank parser | [open](https://www.kvb.bank.in/interest-rates-charges-quick-glance/) |
 | Kotak Mahindra Bank Ltd | `blocked` | challenge page detected (cloudflare) | [open](https://www.kotak.bank.in/en/rates/interest-rates.html) |
+| Nainital Bank Ltd | `blocked` | challenge page detected (cloudflare) | [open](https://www.nainitalbank.bank.in/english/interest_rate.aspx) |
 | RBL Bank Ltd | `blocked` | challenge page detected (cloudflare) | [open](https://www.rbl.bank.in/interest-rates?tab=fixed-deposit) |
 | South Indian Bank Ltd | `blocked` | HTTP 403 (bot wall or WAF) | [open](https://www.southindianbank.bank.in/quick-links/interest-rates) |
 | YES Bank Ltd | `parse_failed` | render failed: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.yes.bank.in/rates-and-charges
