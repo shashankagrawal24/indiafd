@@ -1,9 +1,9 @@
-# FD rates run - 2026-09-28
+# FD rates run - 2026-10-05
 
 - Banks in seed list: **58**
 - Banks with a retail FD page to try: **49**
 - Banks with rates collected: **22** (44.9% of eligible)
-- Rate rows published: **2122**
+- Rate rows published: **2049**
 
 ## Coverage by category
 
