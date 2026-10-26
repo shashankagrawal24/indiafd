@@ -1,9 +1,9 @@
-# FD rates run - 2026-10-19
+# FD rates run - 2026-10-26
 
 - Banks in seed list: **58**
 - Banks with a retail FD page to try: **49**
 - Banks with rates collected: **23** (46.9% of eligible)
-- Rate rows published: **1885**
+- Rate rows published: **2040**
 
 ## Coverage by category
 
@@ -26,8 +26,8 @@ Open each link in a normal browser and read the rate off the page. These are not
 | Indian Bank | `parse_failed` | HTTP 404 | [open](https://indianbank.bank.in/en/interest-rates-for-domestic-term-deposits) |
 | Punjab and Sind Bank | `blocked` | challenge page detected (cloudflare) | [open](https://www.punjabandsind.bank.in/content/interestdom) |
 | Punjab National Bank | `blocked` | challenge page detected (cloudflare) | [open](https://pnb.bank.in/Interest-Rates-Deposit.html) |
-| Bandhan Bank Ltd | `parse_failed` | ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certifica | [open](https://www.bandhan.bank.in/rates-charges) |
 | CSB Bank Ltd | `blocked` | challenge page detected (captcha) | [open](https://www.csb.bank.in/interest-rates) |
+| Federal Bank Ltd | `blocked` | challenge page detected (radware) | [open](https://www.federal.bank.in/deposit-rate) |
 | ICICI Bank Ltd | `blocked` | robots.txt disallows this path | [open](https://www.icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates) |
 | IDBI Bank Ltd | `parse_failed` | ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certifica | [open](https://www.idbi.bank.in/interest-rates.aspx) |
 | Jammu and Kashmir Bank Ltd | `parse_failed` | ConnectTimeout: timed out | [open](https://jkb.bank.in/interest-rates) |
