@@ -1,16 +1,16 @@
-# FD rates run - 2026-10-26
+# FD rates run - 2026-11-02
 
 - Banks in seed list: **58**
 - Banks with a retail FD page to try: **49**
-- Banks with rates collected: **23** (46.9% of eligible)
-- Rate rows published: **2040**
+- Banks with rates collected: **24** (49.0% of eligible)
+- Rate rows published: **2135**
 
 ## Coverage by category
 
 | Category | Collected | Eligible |
 | --- | ---: | ---: |
 | Foreign Bank | 3 | 6 |
-| Private Sector Bank | 11 | 21 |
+| Private Sector Bank | 12 | 21 |
 | Public Sector Bank | 6 | 12 |
 | Small Finance Bank | 3 | 10 |
 
@@ -26,13 +26,12 @@ Open each link in a normal browser and read the rate off the page. These are not
 | Indian Bank | `parse_failed` | HTTP 404 | [open](https://indianbank.bank.in/en/interest-rates-for-domestic-term-deposits) |
 | Punjab and Sind Bank | `blocked` | challenge page detected (cloudflare) | [open](https://www.punjabandsind.bank.in/content/interestdom) |
 | Punjab National Bank | `blocked` | challenge page detected (cloudflare) | [open](https://pnb.bank.in/Interest-Rates-Deposit.html) |
-| CSB Bank Ltd | `blocked` | challenge page detected (captcha) | [open](https://www.csb.bank.in/interest-rates) |
-| Federal Bank Ltd | `blocked` | challenge page detected (radware) | [open](https://www.federal.bank.in/deposit-rate) |
 | ICICI Bank Ltd | `blocked` | robots.txt disallows this path | [open](https://www.icici.bank.in/personal-banking/deposits/fixed-deposit/fd-interest-rates) |
 | IDBI Bank Ltd | `parse_failed` | ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certifica | [open](https://www.idbi.bank.in/interest-rates.aspx) |
 | Jammu and Kashmir Bank Ltd | `parse_failed` | ConnectTimeout: timed out | [open](https://jkb.bank.in/interest-rates) |
+| Karur Vysya Bank Ltd | `parse_failed` | page fetched but no rate table recognised - check the snapshot and add a per-bank parser | [open](https://www.kvb.bank.in/interest-rates-charges-quick-glance/) |
 | Kotak Mahindra Bank Ltd | `blocked` | challenge page detected (cloudflare) | [open](https://www.kotak.bank.in/en/rates/interest-rates.html) |
-| Nainital Bank Ltd | `blocked` | challenge page detected (cloudflare) | [open](https://www.nainitalbank.bank.in/english/interest_rate.aspx) |
+| Nainital Bank Ltd | `parse_failed` | page fetched but no rate table recognised - check the snapshot and add a per-bank parser | [open](https://www.nainitalbank.bank.in/english/interest_rate.aspx) |
 | RBL Bank Ltd | `blocked` | challenge page detected (cloudflare) | [open](https://www.rbl.bank.in/interest-rates?tab=fixed-deposit) |
 | South Indian Bank Ltd | `blocked` | HTTP 403 (bot wall or WAF) | [open](https://www.southindianbank.bank.in/quick-links/interest-rates) |
 | YES Bank Ltd | `parse_failed` | render failed: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.yes.bank.in/rates-and-charges
